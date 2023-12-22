@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
