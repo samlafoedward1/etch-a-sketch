@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  height: 100vh; /* Adjust the height as needed */
+  height: 100vh;
 }
 
 .grid-item {
@@ -23,14 +23,13 @@ body {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  height: 100vh; /* Adjust the height as needed */
+  height: 100vh;
 }
 
 .grid-item {
   border: 1px solid #ccc;
   box-sizing: border-box;
-  /* Additional styling for each grid item */
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 .grid-item:hover {
